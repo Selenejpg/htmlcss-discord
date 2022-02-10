@@ -87,7 +87,7 @@ h1 {
     font-size: 60px;
 }
 
-p {
+.p-1 {
     font-size: 25px;
     color: white;
 }
@@ -127,4 +127,148 @@ p {
 
 .bottone {
     font-size: 25px;
+}
+
+/* tag e classi di tutte e quattro le sezioni del main */
+
+h2 { 
+    font-size: 55px;
+}
+
+.paragrafo {
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.wave {
+    position: relative;
+}
+
+/* classi seconda sezione main */
+
+.sezduemain {
+    width: 100vw;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+.img {
+    float: left;
+    margin-left: 20%;
+    margin-right: 60px;
+    
+}
+
+.par-1 {
+    float: left;
+    width: 500px;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.custom-shape-divider-top-16445287651 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    background-color: #f6f6f6;
+    padding-bottom: 60px;
+}
+
+.custom-shape-divider-top-16445287651 svg {
+    position: relative;
+    display: block;
+    width: calc(128% + 1.3px);
+    height: 128px;
+}
+
+.custom-shape-divider-top-16445287651 .shape-fill {
+    fill: white;
+}
+
+/* classi terza sezione main */
+
+.seztremain {
+    width: 100vw;
+    margin-top: 200px; 
+    padding-bottom: 70px; 
+    background-color: #f6f6f6;
+}
+
+.img-2 {
+    float: left;
+    margin-top: 20px;
+}
+
+.par-2 {
+    float: left;
+    width: 500px;
+    font-size: 30px;
+    margin-left: 25%;
+    margin-right: 60px;
+    margin-top: 60px;
+}
+
+.custom-shape-divider-top-16445287652 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-16445287652 svg {
+    position: relative;
+    display: block;
+    width: calc(128% + 1.3px);
+    height: 128px;
+}
+
+.custom-shape-divider-top-16445287652 .shape-fill {
+    fill: #f6f6f6;
+}
+
+
+/* classi quarta sezione main */
+
+.sezquattromain {
+    width: 100vw;
+    margin-top: 150px;
+    padding-bottom: 70px;
+}
+
+.img-3 {
+    float: left;
+    margin-left: 20%;
+    margin-right: 60px;
+}
+
+.par-3 {
+    float: left;
+    width: 500px;
+}
+
+.custom-shape-divider-top-16445287653 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    background-color: #f6f6f6;
+    padding-bottom: 72px;
+}
+
+.custom-shape-divider-top-16445287653 svg {
+    position: relative;
+    display: block;
+    width: calc(128% + 1.3px);
+    height: 128px;
+}
+
+.custom-shape-divider-top-16445287653 .shape-fill {
+    fill: white
 }
