@@ -24,7 +24,7 @@ body {
 
 header {
     background-color: #3161e0;
-    padding: 30px 30px;
+    padding: 35px 35px;
     line-height: 38px
 }
 
@@ -39,14 +39,14 @@ li {
     float: left; 
     display: table-cell;
     vertical-align: middle;
-    margin-left: 200px;
+    margin-left: 250px;
 }
 
 .menuheader {
     float: left; 
     display: table-cell;
     vertical-align: middle;
-    margin-left: 260px;
+    margin-left: 250px;
     font-size: 20px;
 }
 
@@ -54,7 +54,7 @@ li {
     float: right; 
     display: table-cell;
     vertical-align: middle;
-    margin-right: 200px;
+    margin-right: 250px;
     font-size: 20px;
 }
 
