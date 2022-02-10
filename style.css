@@ -1,3 +1,4 @@
+/* generali */
 * {
     padding: 0;
     margin: 0;
@@ -8,4 +9,80 @@
     content: "";
     display: table;
     clear: both;
+}
+
+/* sezioni principali */
+
+/* header */
+
+.topbanner {
+    height: 100px;
+    background-color: #3161e0;
+}
+
+.menu1 {
+    display: inline-block;
+}
+
+.logo {
+    width: 200px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 150px;
+}    
+
+li {
+    display: inline;
+    margin-right: 50px;
+   
+}  
+
+
+a {
+    margin-right: 10px;
+    font-size: 22px; 
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+/* main */
+
+.section {
+    height: 100px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.one {
+    background-color: cornflowerblue;
+}
+
+.two {
+    background-color: burlywood; 
+}
+
+.three {
+    background-color: green;
+}
+
+.four {
+    background-color: blueviolet;
+}
+
+.five {
+    background-color: bisque;  
+}
+
+/* footer */
+
+.bottombanner {
+    height: 100px;
+    width: 100%;
+    background-color: skyblue;
 }
