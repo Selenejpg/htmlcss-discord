@@ -1,88 +1,78 @@
 /* generali */
+
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.clearfix::after{
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
 }
 
-/* sezioni principali */
+/* sezione principale */
 
-/* header */
-
-.topbanner {
-    height: 100px;
-    background-color: #3161e0;
-}
-
-.menu1 {
+body {
+    width: 100vw;
     display: inline-block;
 }
 
-.logo {
-    width: 200px;
-    margin-left: 100px;
-    margin-top: 30px;
-}
+/* tag sezione header */
 
-ul {
-    list-style-type: none;
-    margin-left: 150px;
-}    
+header {
+    background-color: #3161e0;
+    padding: 30px 30px;
+    line-height: 38px
+}
 
 li {
-    display: inline;
-    margin-right: 50px;
-   
-}  
+    display: inline-block;
+    margin-right: 70px;
+}
 
+/* classi sezione header */
 
-a {
-    margin-right: 10px;
-    font-size: 22px; 
+.logodiscord {
+    float: left; 
+    display: table-cell;
+    vertical-align: middle;
+    margin-left: 200px;
+}
+
+.menuheader {
+    float: left; 
+    display: table-cell;
+    vertical-align: middle;
+    margin-left: 260px;
+    font-size: 20px;
+}
+
+.button1 {
+    float: right; 
+    display: table-cell;
+    vertical-align: middle;
+    margin-right: 200px;
+    font-size: 20px;
+}
+
+.logoheader {
+    height: 50px;
+}
+
+.listauno {
+    list-style-type: none;
     text-decoration: none;
     color: white;
-    
 }
 
-
-/* main */
-
-.section {
-    height: 100px;
-    width: 100%;
-    border: 1px solid black;
-}
-
-.one {
-    background-color: cornflowerblue;
-}
-
-.two {
-    background-color: burlywood; 
-}
-
-.three {
-    background-color: green;
-}
-
-.four {
-    background-color: blueviolet;
-}
-
-.five {
-    background-color: bisque;  
-}
-
-/* footer */
-
-.bottombanner {
-    height: 100px;
-    width: 100%;
-    background-color: skyblue;
+.accedi {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 15px;
+    border-radius: 40px;
 }
