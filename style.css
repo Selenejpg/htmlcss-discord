@@ -96,7 +96,7 @@ h1 {
 
 .sezunomain {
     width: 100vw;
-    height: 700px;
+    height: 700px; 
     display: inline-block;
     text-align: center; 
     background-image: url(./asset/img/jumbo.png);
@@ -107,8 +107,8 @@ h1 {
 
 .uno {
     float: left;
-    margin-left: 750px;
-    margin-right: 29px;
+    margin-left: 775px;
+    margin-right: 40px;
     margin-top: 30px;
     color: black;
     padding: 30px;
@@ -129,7 +129,7 @@ h1 {
     font-size: 25px;
 }
 
-/* tag e classi di tutte e quattro le sezioni del main */
+/* TODO tag e classi di tutte e quattro le sezioni del main */
 
 h2 { 
     font-size: 55px;
@@ -144,7 +144,7 @@ h2 {
     position: relative;
 }
 
-/* classi seconda sezione main */
+/* TODO classi seconda sezione main */
 
 .sezduemain {
     width: 100vw;
@@ -190,7 +190,7 @@ h2 {
     fill: white;
 }
 
-/* classi terza sezione main */
+/* TODO classi terza sezione main */
 
 .seztremain {
     width: 100vw;
@@ -235,7 +235,7 @@ h2 {
 }
 
 
-/* classi quarta sezione main */
+/* TODO classi quarta sezione main */
 
 .sezquattromain {
     width: 100vw;
@@ -275,4 +275,40 @@ h2 {
 
 .custom-shape-divider-top-16445287653 .shape-fill {
     fill: white
+}
+
+/* TODO classi quinta sezione main */
+
+.sezcinquemain {
+    background-color: #f6f6f6;
+    margin-top: 200px;
+    text-align: center;
+}
+
+.ultimo {
+    font-size: 60px;
+}
+
+.paragrafo-1 {
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.stelline {
+    font-size: 30px;
+}
+
+.stars {
+    width: 650px;
+}
+
+.tasto {
+    margin-top: 40px;
+    font-size: 25px;
+    padding: 20px;
+    margin-right: 43%;
+    margin-left: 43%;
+    background-color: #8ea1e1;
+    color: white;
+    border-radius: 40px;
 }
