@@ -1,4 +1,4 @@
-/* generali */
+/* TODO generali */
 
 * {
     margin: 0;
@@ -13,14 +13,14 @@
     clear: both;
 }
 
-/* sezioni principali */
+/* TODO sezioni principali */
 
 body {
     width: 100vw; 
     display: inline-block;
 }
 
-/* tag sezione header */
+/* TODO tag sezione header */
 
 header {
     background-color: #3161e0;
@@ -34,20 +34,20 @@ li {
     margin-right: 70px;
 }
 
-/* classi sezione header */
+/* TODO classi sezione header */
 
 .logodiscord {
     float: left; 
     display: table-cell;
     vertical-align: middle;
-    margin-left: 250px;
+    margin-left: 280px;
 }
 
 .menuheader {
     float: left; 
     display: table-cell;
     vertical-align: middle;
-    margin-left: 243px;
+    margin-left: 255px;
     font-size: 20px;
 }
 
@@ -78,7 +78,8 @@ li {
     border-radius: 40px;
 }
 
-/* tag prima sezione main */
+/* TODO tag prima sezione main */
+
 h1 {
     color: white;
     margin-top: 150px;
@@ -91,7 +92,7 @@ p {
     color: white;
 }
 
-/* classi prima sezione main */
+/* TODO classi prima sezione main */
 
 .sezunomain {
     width: 100vw;
@@ -107,7 +108,7 @@ p {
 .uno {
     float: left;
     margin-left: 750px;
-    margin-right: 30px;
+    margin-right: 29px;
     margin-top: 30px;
     color: black;
     padding: 30px;
@@ -119,7 +120,7 @@ p {
    float: left;
    margin-top: 30px;
    color: white;
-   padding: 30px;
+   padding: 31px;
    background-color: black;
    border-radius: 50px;
 }
