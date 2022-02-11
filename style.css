@@ -383,6 +383,40 @@ hr {
  float: left;
 }
 
+.flagita {
+    margin-left: 550px ;
+    margin-top: 30px;
+}
+
+.flag {
+    width: 35px;
+}
+
+.ita {
+    font-size: 15px;
+    color: white;
+}
+
+.arrow {
+    color: white;
+}
+
+.icone {
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.space {
+    margin-left: 540px;
+    margin-top: 20px;
+    size: 20px;
+}
+
+.fa-brands {
+    margin-right: 10px; 
+}
+
 .elenco > ul > li {
     margin-bottom: 10px;
 }
