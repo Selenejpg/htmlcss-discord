@@ -29,11 +29,6 @@ header {
     line-height: 38px
 }
 
-li {
-    display: inline-block;
-    margin-right: 70px;
-}
-
 /* TODO classi sezione header */
 
 .logodiscord {
@@ -47,8 +42,13 @@ li {
     float: left; 
     display: table-cell;
     vertical-align: middle;
-    margin-left: 255px;
     font-size: 20px;
+    margin-left: 270px;
+}
+
+.listitem {
+    display: inline-block;
+    margin-right: 70px;
 }
 
 .button1 {
@@ -107,8 +107,8 @@ h1 {
 
 .uno {
     float: left;
-    margin-left: 775px;
-    margin-right: 40px;
+    margin-left: 735px;
+    margin-right: 55px;
     margin-top: 30px;
     color: black;
     padding: 30px;
@@ -168,6 +168,7 @@ h2 {
     margin-top: 30px;
 }
 
+/* onda */
 .custom-shape-divider-top-16445287651 {
     position: absolute;
     top: 0;
@@ -214,6 +215,7 @@ h2 {
     margin-top: 60px;
 }
 
+/* onda */
 .custom-shape-divider-top-16445287652 {
     position: absolute;
     top: 0;
@@ -233,7 +235,6 @@ h2 {
 .custom-shape-divider-top-16445287652 .shape-fill {
     fill: #f6f6f6;
 }
-
 
 /* TODO classi quarta sezione main */
 
@@ -255,6 +256,7 @@ h2 {
     width: 500px;
 }
 
+/* onda */
 .custom-shape-divider-top-16445287653 {
     position: absolute;
     top: 0;
@@ -283,6 +285,7 @@ h2 {
     background-color: #f6f6f6;
     margin-top: 200px;
     text-align: center;
+    padding-bottom: 200px;
 }
 
 .ultimo {
@@ -291,7 +294,7 @@ h2 {
 
 .paragrafo-1 {
     margin-top: 40px;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .stelline {
@@ -311,4 +314,44 @@ h2 {
     background-color: #8ea1e1;
     color: white;
     border-radius: 40px;
+}
+
+/* TODO tag footer */
+
+footer {
+    background-color: #23272a;
+    padding-bottom: 60px;
+}
+
+h5 {
+    color: #7289da;
+    margin-left: 600px;
+    /* padding-top: 100px; */
+    font-size: 40px;
+}
+
+/* TODO classi footer */
+
+.listefooter {
+   margin-left: 10px; 
+   margin-right: 70px;
+}
+
+.contenitore {
+    width: 60%;
+    float: left;
+}
+
+.titolo {
+    color: #7289da;
+}
+
+.elenco {
+    float: left; 
+    color: white;
+}
+
+.elenco1 {
+ width: 40%;
+ float: left;
 }
