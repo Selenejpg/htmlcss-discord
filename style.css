@@ -24,6 +24,7 @@ body {
 
 header {
     background-color: #3161e0;
+    display: block;
     padding-top: 40px;
     padding-bottom: 15px;
     line-height: 38px
@@ -33,17 +34,13 @@ header {
 
 .logodiscord {
     float: left; 
-    display: table-cell;
     vertical-align: middle;
-    margin-left: 280px;
 }
 
 .menuheader {
-    float: left; 
-    display: table-cell;
+    text-align: center;
     vertical-align: middle;
     font-size: 20px;
-    margin-left: 270px;
 }
 
 .listitem {
@@ -53,14 +50,15 @@ header {
 
 .button1 {
     float: right; 
-    display: table-cell;
+    list-style-type: none;
     vertical-align: middle;
-    margin-right: 250px;
     font-size: 20px;
+    margin-right: 20px;
 }
 
 .logoheader {
     height: 50px;
+    margin-left: 20px;
 }
 
 .listauno {
@@ -70,7 +68,6 @@ header {
 }
 
 .accedi {
-    list-style-type: none;
     text-decoration: none;
     color: black;
     background-color: white;
@@ -82,13 +79,13 @@ header {
 
 h1 {
     color: white;
-    margin-top: 150px;
     margin-bottom: 40px;
+    margin-top: 5%;
     font-size: 60px;
 }
 
 .p-1 {
-    font-size: 25px;
+    font-size: 20px;
     color: white;
 }
 
@@ -96,7 +93,7 @@ h1 {
 
 .sezunomain {
     width: 100vw;
-    height: 700px; 
+    height: 500px; 
     display: inline-block;
     text-align: center; 
     background-image: url(./asset/img/jumbo.png);
@@ -105,13 +102,16 @@ h1 {
 
 }
 
+.bot-sez-1 {
+   display: flex;
+   justify-content: center;
+}
+
 .uno {
     float: left;
-    margin-left: 735px;
-    margin-right: 55px;
     margin-top: 30px;
     color: black;
-    padding: 30px;
+    padding: 20px;
     background-color: white;
     border-radius: 50px;
     text-decoration: none;
@@ -121,20 +121,21 @@ h1 {
    float: left;
    margin-top: 30px;
    color: white;
-   padding: 31px;
+   padding: 21px;
    background-color: black;
    border-radius: 50px;
    text-decoration: none;
+   margin-left: 20px;
 }
 
 .bottone {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 /* TODO tag e classi di tutte e quattro le sezioni del main */
 
 h2 { 
-    font-size: 55px;
+    font-size: 50px;
 }
 
 .paragrafo {
@@ -151,15 +152,13 @@ h2 {
 .sezduemain {
     width: 100vw;
     margin-top: 100px;
-    margin-bottom: 70px;
-    padding-bottom: 50px;
-    padding-top: 50px;
 }
 
 .img {
     float: left;
-    margin-left: 20%;
+    margin-left: 30px;
     margin-right: 60px;
+    margin-bottom: 80px;
     
 }
 
@@ -176,7 +175,6 @@ h2 {
     top: 0;
     left: 0;
     width: 100%;
-    overflow: hidden;
     line-height: 0;
     background-color: #f6f6f6;
     padding-bottom: 60px;
@@ -197,8 +195,7 @@ h2 {
 
 .seztremain {
     width: 100vw;
-    margin-top: 200px; 
-    padding-top: 50px;
+    margin-top: 10%;
     padding-bottom: 80px; 
     background-color: #f6f6f6;
 }
@@ -212,9 +209,8 @@ h2 {
     float: left;
     width: 500px;
     font-size: 30px;
-    margin-left: 25%;
-    margin-right: 60px;
     margin-top: 60px;
+    margin-left: 8%;
 }
 
 /* onda */
@@ -242,15 +238,14 @@ h2 {
 
 .sezquattromain {
     width: 100vw;
-    margin-top: 150px;
-    padding-top: 50px;
-    padding-bottom: 70px;
+    margin-top: 10%;
+    margin-bottom: 5%;
 }
 
 .img-3 {
     float: left;
-    margin-left: 20%;
     margin-right: 60px;
+    margin-left: 5%;
 }
 
 .par-3 {
@@ -267,7 +262,6 @@ h2 {
     overflow: hidden;
     line-height: 0;
     background-color: #f6f6f6;
-    padding-bottom: 72px;
 }
 
 .custom-shape-divider-top-16445287653 svg {
@@ -285,13 +279,21 @@ h2 {
 
 .sezcinquemain {
     background-color: #f6f6f6;
-    margin-top: 200px;
     text-align: center;
-    padding-bottom: 200px;
+    height: 1000px;
+}
+
+.par-4 {
+    margin-top: 12%;
+}
+
+.banner {
+    width: 50%;
 }
 
 .ultimo {
     font-size: 60px;
+    padding-top: 50px;
 }
 
 .paragrafo-1 {
@@ -312,8 +314,6 @@ h2 {
     margin-top: 70px;
     font-size: 25px;
     padding: 25px;
-    margin-right: 43%;
-    margin-left: 43%;
     background-color: #8ea1e1;
     color: white;
     border-radius: 40px;
@@ -325,37 +325,27 @@ h2 {
 footer {
     background-color: #23272a;
     padding-bottom: 60px;
+    padding-top: 50px;
 }
 
 h5 {
     color: #7289da;
     width: 500px;
-    margin-left: 550px;
     font-size: 40px;
-    padding-right: 100px;
-    padding-top: 50px;
-}
-
-hr {
-    display:inline-block;
-    width: 55%;
-    margin-top: 60px;
-    margin-left: 500px;
-    border-color: #7289da;
 }
 
 /* TODO classi footer */
+.contenitore1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
 
 .listefooter {
    margin-left: 5px; 
-   margin-right: 70px;
-}
-
-.contenitore {
-    width: 50%;
-    float: left;
-    margin-left: 100px;
-    padding-top: 60px;
+   display: flex;
+   flex-direction: column;
+   margin-right: 30px;
 }
 
 .titolo {
@@ -383,11 +373,6 @@ hr {
  float: left;
 }
 
-.flagita {
-    margin-left: 550px ;
-    margin-top: 30px;
-}
-
 .flag {
     width: 35px;
 }
@@ -407,12 +392,6 @@ hr {
     font-size: 25px;
 }
 
-.space {
-    margin-left: 540px;
-    margin-top: 20px;
-    size: 20px;
-}
-
 .fa-brands {
     margin-right: 10px; 
 }
@@ -421,26 +400,46 @@ hr {
     margin-bottom: 10px;
 }
 
+.bg-color {
+    background-color: #23272a;
+}
+
+hr {
+    border-color: #7289da;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h5 {
+    margin-bottom: 20px;
+}
+
+.flagita {
+    margin-bottom: 20px;
+}
+
 .end {
     background-color: #23272a;
+    padding-top: 40px;
     display: block;
     padding-bottom: 30px;
 }
 
 .logodis {
     float: left;
-    margin-left: 25%;
+    margin-left: 10%;
 }
 
 .registrati {
     float: right;
-    margin-right: 25%;
+    margin-right: 10%;
 }
 
 .bottonereg {
     text-decoration: none;
     color: white;
+    margin-top: 10px;
     background-color: #8ea1e1;
-    padding: 20px;
+    padding: 10px;
     border-radius: 30px;
 }
